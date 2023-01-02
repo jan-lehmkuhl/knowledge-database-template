@@ -1,0 +1,143 @@
+{
+
+    //-------- Header --------
+    "headerLine1":{
+        "prefix": ["header1", "#"],
+        "body": ["${1:HEADER}\n======================================================================\n"],
+        "description": "HeaderLine"
+    },
+
+    "headerLine2":{
+        "prefix": ["header2","subheader", "##"],
+        "body": ["${1:HEADER}\n------------------------------------------------------------\n"],
+        "description": "SubHeaderLine"
+    },
+
+
+    // -------- Links & References --------
+    "Internal Link Desc": {
+        "prefix": "markdown link 1 with description, []",
+        "body": [
+            "[${2:$TM_SELECTED_TEXT}](${1:$CLIPBOARD})$0  ",
+        ],
+        "description": "standard inline links"
+    },
+    "Reference Link": {
+        "prefix": "markdown link 3 reference",
+        "body": [
+            "$4[${2:$TM_SELECTED_TEXT}]$0",
+            "[${2}]: ${1:$CLIPBOARD}$5",
+            "",
+        ],
+        "description": "reference link "
+    },
+
+
+    // -------- Elements --------
+    "Task": {
+        "prefix": "task",
+        "body": [
+            "- [ ] ${1}",
+        ],
+        "description": "list in markdown"
+    },
+
+    "Inline Code": {
+        "prefix": "Vorwerk inline code, ``",
+        "body": [
+            "`${1:$TM_SELECTED_TEXT}`$0",
+        ],
+    },
+
+
+    // -------- Note Templates --------
+    "permanent note header": {
+        "prefix": "Vorwerk permanent note header",
+        "body": [
+            "---",
+            "id: $UUID",
+            "created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+            "keywords: ",
+            "  - #${4|not-started,ongoing ,done-for-the-moment|}",
+            "  - #${5|permanent-note,map-of-content,literature,project,decision, |}",
+            "authors:",
+            "  - ${7:Jan Lehmkuhl}",
+            "---",
+            "",
+            "",
+            "${3:TITLE}",
+            "======================================================================",
+            "",
+            "$9",
+            "",
+            "",
+            "RESOURCES",
+            "======================================================================",
+            "",
+            "$10",
+        ],
+        "description": ""
+    },
+
+    "literature content header": {
+        "prefix": "Vorwerk literature content header",
+        "body": [
+            "---",
+            "id: $UUID",
+            "created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+            "bibliography: ${TM_FILENAME_BASE}.bib",
+            "keywords: ",
+            "  - #${4|not-started,ongoing,done-for-the-moment|} ",
+            "  - #${5:literature}",
+            "authors:",
+            "  - ${7}",
+            "---",
+            "",
+            "",
+            "",
+            "${1:FIRSTAUTHOR} ${2:YEAR} - ${3:TITLE}",
+            "======================================================================",
+            "",
+            "### corresponding files",
+            "[PDF-File](${TM_FILENAME_BASE}.pdf)  ",
+            "",
+            "",
+            "### content",
+            "##### My Assessment",
+            "",
+            "##### My Synopsis",
+            "",
+            "##### Abstract",
+            "",
+            "",
+            "EXCERPTS",
+            "======================================================================",
+            "",
+            "<!-- here place your excerpts -->",
+            "<!-- you can devide the chapters by second & third level header -->",
+            "$0",
+        ],
+        "description": "set the correct name of this file before inserting this snippet"
+    },
+
+    "PDF excerpt": {
+        "prefix": "Vorwerk excerpt",
+        "body": [
+            "#### $RANDOM",
+            "**___",
+            "${8:KEY_STATEMENT}",
+            "___**",
+            "###### type",
+            "${1|excerpt,summary,figure,personal_comment|}",
+            "###### location",
+            "${2|page: ,lines: , |}${3:NUMBER}",
+            "###### my assessment${9:}",
+            "###### my synopsis${7:}",
+            "###### citation",
+            "${6}${CLIPBOARD/(([a-z,ß] *)(\n)(\\w))/$2 $4/g}",
+            "$0",
+        ],
+        "description": "template for fill in citation infos"
+    },
+
+}

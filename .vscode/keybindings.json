@@ -1,0 +1,9 @@
+[
+    {
+        "key": "alt+oem_6",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "name": "Inline Code"
+        }
+    },
+]
