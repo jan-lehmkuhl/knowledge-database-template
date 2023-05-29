@@ -1,29 +1,50 @@
 {
-
     //-------- Header --------
     "headerLine1":{
-        "prefix": ["header1", "#"],
-        "body": ["${1:HEADER}\n======================================================================\n"],
+        "prefix": [
+            "header1",
+            "#"
+        ],
+        "body": [
+            "${1:HEADER}\n======================================================================\n"
+        ],
         "description": "HeaderLine"
     },
-
-    "headerLine2":{
-        "prefix": ["header2","subheader", "##"],
-        "body": ["${1:HEADER}\n------------------------------------------------------------\n"],
+    "headerLine2": {
+        "prefix": [
+            "header2",
+            "subheader",
+            "##"
+        ],
+        "body": [
+            "${1:HEADER}\n------------------------------------------------------------\n"
+        ],
         "description": "SubHeaderLine"
     },
-
-
     // -------- Links & References --------
-    "Internal Link Desc": {
-        "prefix": "markdown link 1 with description, []",
+    "Empty Link": {
+        "prefix": "markdown link 1 empty, []",
         "body": [
-            "[${2:$TM_SELECTED_TEXT}](${1:$CLIPBOARD})$0  ",
+            "[${3:$TM_SELECTED_TEXT}]($1)$0",
         ],
         "description": "standard inline links"
     },
+    "Knowledge Base Link": {
+        "prefix": "markdown link 2 knowledge base, []",
+        "body": [
+            "[${3:$TM_SELECTED_TEXT}](\/${CLIPBOARD/[\\\\]/\\//g})$0",
+        ],
+        "description": "internal knowledge base link after copying relative path to clipboard"
+    },
+    "Resources URL Link": {
+        "prefix": "markdown link 3 resources url",
+        "body": [
+            "[${3}${CLIPBOARD/https?:\\\/\\\/(www\\.)?([a-z0-9\\.\\-]*)(.*)/$2/}${4}](${1:$CLIPBOARD})$0  ",
+        ],
+        "description": "resources url inline links"
+    },
     "Reference Link": {
-        "prefix": "markdown link 3 reference",
+        "prefix": "markdown link 4 reference",
         "body": [
             "$4[${2:$TM_SELECTED_TEXT}]$0",
             "[${2}]: ${1:$CLIPBOARD}$5",
@@ -32,55 +53,66 @@
         "description": "reference link "
     },
 
-
     // -------- Elements --------
+    "Table": {
+        "prefix": "table structure",
+        "body": [
+            "| ${1:HEADER1}| ${2:HEADER2}|",
+            "| --------- | --------- |",
+            "| $3 | $4 |",
+            "",
+        ],
+    },
     "Task": {
         "prefix": "task",
         "body": [
-            "- [ ] ${1}",
+            "- [${1| ,x|}] ${2}",
         ],
         "description": "list in markdown"
     },
-
     "Inline Code": {
-        "prefix": "Vorwerk inline code, ``",
+        "prefix": "inline code, ``",
         "body": [
             "`${1:$TM_SELECTED_TEXT}`$0",
         ],
     },
-
-
+    "Image": {
+        "prefix": "image picture",
+        "body": [
+            "${2}> ![](${1})  ",
+            "$0",
+        ],
+        "description": "DESCRIPTION"
+    },
     // -------- Note Templates --------
-    "permanent note header": {
-        "prefix": "Vorwerk permanent note header",
+    "note header": {
+        "prefix": "note header",
         "body": [
             "---",
             "id: $UUID",
             "created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
             "keywords: ",
-            "  - #${4|not-started,ongoing ,done-for-the-moment|}",
-            "  - #${5|permanent-note,map-of-content,literature,project,decision, |}",
-            "authors:",
-            "  - ${7:Jan Lehmkuhl}",
+            "  - #${5|not-started,ongoing ,done-for-the-moment|}",
+            "  - #${6|permanent-note,map-of-content,literature,project,decision, |}",
+            // "authors:",
+            // "  - ${7:Jan Lehmkuhl}",
             "---",
             "",
             "",
-            "${3:TITLE}",
-            "======================================================================",
-            "",
+            "${3}${TM_SELECTED_TEXT/(# )?([a-zA-Z- äöü]*)(\n)*/$2\n======================================================================\n\n/}",
             "$9",
             "",
             "",
             "RESOURCES",
             "======================================================================",
             "",
-            "$10",
+            "$4",
         ],
         "description": ""
     },
 
     "literature content header": {
-        "prefix": "Vorwerk literature content header",
+        "prefix": "literature content header",
         "body": [
             "---",
             "id: $UUID",
@@ -120,17 +152,14 @@
         "description": "set the correct name of this file before inserting this snippet"
     },
 
-    "PDF excerpt": {
-        "prefix": "Vorwerk excerpt",
+    "Literature excerpt": {
+        "prefix": "literature excerpt",
         "body": [
-            "#### $RANDOM",
+            "##### $RANDOM",
             "**___",
             "${8:KEY_STATEMENT}",
-            "___**",
-            "###### type",
-            "${1|excerpt,summary,figure,personal_comment|}",
-            "###### location",
-            "${2|page: ,lines: , |}${3:NUMBER}",
+            "___**  ",
+            "${1|excerpt,summary,figure,table,personal_comment|} ${2|page: ,lines: , |}${3:NUMBER}",
             "###### my assessment${9:}",
             "###### my synopsis${7:}",
             "###### citation",
@@ -139,5 +168,4 @@
         ],
         "description": "template for fill in citation infos"
     },
-
 }
