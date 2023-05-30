@@ -25,7 +25,7 @@ Trotzdem gibt es einige Besonderheiten die aus der Syntax nicht direkt ersichtli
 Z.B.:
 * Schreiben von [Fließtexten mit Absätzen](floating-texts.md)  
 * relative [Markdown Links](links.md)  
-* [Markdown Paste Plugin](markdown-paste-plugin.md) für Bilder
+* [Markdown Paste Plugin](../../vs-code/plugins/markdown-paste.md) für Bilder
 
 
 

@@ -27,7 +27,7 @@ Mit optional auch mehrfach vorangestellten `../` (`../../`) lassen sich auch Dat
 `Strg + Space` öffnet hier auch die Fuzzy-Suche und erleichtert den Bau der Verknüpfung. 
 
 Absolute Links ab Workspace-Root funktionieren auch:  
-[Test](/coding/markdown/markdown-paste-plugin.md)  
+[Test](/coding/vs-code/plugins/markdown-paste.md)  
 
     [Test](/coding/markdown/markdown-paste-plugin.md)  
 

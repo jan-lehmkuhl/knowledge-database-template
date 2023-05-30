@@ -13,11 +13,11 @@ Markdown Paste Plugin
 ======================================================================
 
 Bilder können sehr einfach mit dem Markdown Paste Plugin eingefügt werden. 
-(siehe [Plugins installieren](../../README_old.md#plugins-installieren)
+(siehe [Plugins installieren](../../../README_old.md#plugins-installieren)
 
 
 ## Markdown Syntax
-Die verwendete Markdown Syntax für Bilder ist sehr ähnlich zu den [Markdown Links](links.md):  
+Die verwendete Markdown Syntax für Bilder ist sehr ähnlich zu den [Markdown Links](../../languages/markdown/links.md):  
 
     ![](images/file.png)
 

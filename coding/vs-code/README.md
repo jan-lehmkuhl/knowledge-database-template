@@ -20,5 +20,5 @@ Mögliche Shortcuts werden dir hier auch direkt angezeigt.
 
 
 ### Editor 
-Damit du die [Markdown-Files](../markdown/README.md) in einer gerenderte Ansicht betrachten kannst, suche nach `Markdown: Open Preview to Side` und führe ihn aus.  
+Damit du die [Markdown-Files](../languages/markdown/README.md) in einer gerenderte Ansicht betrachten kannst, suche nach `Markdown: Open Preview to Side` und führe ihn aus.  
 Nicht gespeicherte Dateien werden werden mit Punkt markiert.  
