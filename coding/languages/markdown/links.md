@@ -24,18 +24,19 @@ Multi-Ebenen Links
 ------------------------------------------------------------
 
 Mit optional auch mehrfach vorangestellten `../` (`../../`) lassen sich auch Dateien auf übergeordneten Ebenen finden. 
-`Strg + Space` öffnet hier auch die Fuzzy-Suche und erleichtert den Bau der Verknüpfung. 
+`Strg + Space` öffnet hier auch Intellisense und erleichtert den Bau der Verknüpfung.  
 
 Absolute Links ab Workspace-Root funktionieren auch:  
 [Test](/coding/vs-code/plugins/markdown-paste.md)  
 
     [Test](/coding/markdown/markdown-paste-plugin.md)  
 
+Der Befehl `File: Copy Relative Path of Active File` 
 
 ### Dateien verschieben
 Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden die relativen Pfade im Quelltext angepasst. 
 Es müssen im Anschluss nur alle geänderten Dateien gespeichert werden. 
-Wird ein zweifaches Verschieben hintereinander ohne speichern angewendet, gehen die Links verloren. 
+Wird ein zweifaches Verschieben hintereinander ohne speichern angewendet, werden die Links nicht geupdated. 
 
 
 
