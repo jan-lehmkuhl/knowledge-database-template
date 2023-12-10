@@ -15,12 +15,15 @@ VS Code Snippets
 Snippets sind vorgefertigte Textbausteine die einfach in Quelltexte eingefügt werden können.  
 
 Es gibt globale, user-spezifische und lokale Snippets speziell für dieses Projekt. 
-Die lokalen sind in [.vscode/markdown.code-snippets](/.vscode/markdown.code-snippets) angelegt.  
+Die lokalen sind in [/.vscode/markdown.code-snippets](/.vscode/markdown.code-snippets) abgelegt.  
 
-Tippst du `vorw` in das Markdown-Dokument ein, sollte eine Liste mit Vorschlägen erscheinen. 
-Die Vorschläge lassen sich aber auch mit `Strg+Space` aufrufen. 
+Tippst du z.B. `note-header` in dieses Markdown-Dokument ein, sollte eine Liste mit Vorschlägen erscheinen. 
+Erscheinen die Vorschläge nicht automatisch, lassen sich diese aber auch mit `Strg+Space` aktiv aufrufen. 
 
-![](images/intellisense.png)  
+Siehe folgendes Beispiel: 
+
+> ![code.visualstudio.com](https://code.visualstudio.com/assets/docs/editor/userdefinedsnippets/ajax-snippet.gif)  
+
 
 
 

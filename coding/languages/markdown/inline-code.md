@@ -19,7 +19,7 @@ Z.B. für:
 - ...
 
 
-In diesem Repository existiert zur schnelleren Verwendung ein [Shortcut](../../../.vscode/keybindings.json) welcher das [Snippet](../../vs-code/snippets.md) [`Inline Code`](../../../.vscode/markdown.code-snippets) einfügt.  
+In diesem Repository existiert zur schnelleren Verwendung ein [Snippet](../../vs-code/snippets.md) namens [`Inline Code`](/.vscode/markdown.code-snippets).  
 
 Ein Problem ist leider auf Windows Rechner, dass beim Schreiben ein Forwardtick (`´`) auf den nächsten Buchstaben automatisch eingefügt wird. 
 Ein vor dem schreiben ausgeführtes Escape leistet hier Abhilfe. 

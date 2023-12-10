@@ -86,21 +86,21 @@
     },
     // -------- Note Templates --------
     "note header": {
-        "prefix": "note header",
+        "prefix": [
+            "note header",
+            "note-header",
+        ],
         "body": [
             "---",
             "id: $UUID",
             "created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
             "keywords: ",
-            "  - #${5|not-started,ongoing ,done-for-the-moment|}",
-            "  - #${6|permanent-note,map-of-content,literature,project,decision, |}",
-            // "authors:",
-            // "  - ${7:Jan Lehmkuhl}",
+            "  - #${8|permanent-note,map-of-content,literature,project,decision, |}",
             "---",
             "",
             "",
-            "${3}${TM_SELECTED_TEXT/(# )?([a-zA-Z- äöü]*)(\n)*/$2\n======================================================================\n\n/}",
-            "$9",
+            "${3}${TM_SELECTED_TEXT/(# )?([a-zA-Z- äöü]*)(\n)*/$2\n======================================================================\n/}",
+            "$5",
             "",
             "",
             "RESOURCES",
