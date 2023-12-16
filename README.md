@@ -7,6 +7,7 @@ I use this approach for nearly all my work and really don't know how to work wit
 I hope you find some ideas or extend this repository to your personal knowledge home. 
 
 
+
 Benefits of Note-Taking
 ------------------------------------------------------------
 
@@ -30,6 +31,8 @@ While working in this knowledge base I rely on some basic concepts which helping
 * [Atomic Notes](knowledge/note-taking/atomic-notes.md)  
 * This is Work in Progress ([iterative approach](/knowledge/note-taking/iterative-process.md))  
 * [Easy to Change](/coding/concepts/easy-to-change.md)  
+* Notes are written in plain text files in [Markdown Syntax](coding/languages/markdown/README.md).  
+* Quality control and improvement with [git](coding/git/note-quality.md)  
 
 
 

@@ -12,7 +12,15 @@ authors:
 Markdown
 ======================================================================
 
-Markdown ist eine Auszeichnungssprache die relativ schnell zu verstehen ist, besonders wenn man sich die Preview (`Markdown: Open Preview to Side`) parallel anschaut.  
+Markdown ist eine Auszeichnungssprache die relativ schnell zu verstehen ist. 
+Markdown-Dateien mit der Dateiendung `md` kannst du mit einem normalen Texteditor im Quelltext öffnen und "relativ normal" lesen. 
+Trotzdem können diese Dateien wie html gerendert werden und in [VS Code](../../vs-code/README.md) mit der Preview (`Markdown: Open Preview to Side`) angeschaut werden.  
+
+
+Syntax
+------------------------------------------------------------
+
+Um die Syntax zu verstehen ist es zum Einstieg am einfachsten sich eine Markdown-Quelltext-Datei parallel zur gerenderten Version anzuschauen. 
 Zusätzlich gibt es einen Haufen guter Seiten, die die Syntax zusammenfassen, wie z.B.:  
 * [Schnell-Einführung]  
 * [Heise-CheatSheet]  
@@ -21,11 +29,15 @@ Zusätzlich gibt es einen Haufen guter Seiten, die die Syntax zusammenfassen, wi
 * oder dieses [Live-Testing](https://markdown-it.github.io/)  
 
 
-Trotzdem gibt es einige Besonderheiten die aus der Syntax nicht direkt ersichtlich ist und beachtet werden sollten, bevor man Notizen in diesem Repository macht. 
-Z.B.:
-* Schreiben von [Fließtexten mit Absätzen](floating-texts.md)  
+Besonderheiten
+------------------------------------------------------------
+
+Trotzdem gibt es einige Besonderheiten die aus der Syntax nicht direkt ersichtlich sind und beachtet werden sollten, bevor man Notizen in diesem Repository macht. 
+
+* Beim Schreiben von [Fließtexten mit Absätzen](floating-texts.md) werden Sätze in einzelne Zeilen mit Leerzeichen am Zeilenende genutzt.  
 * relative [Markdown Links](links.md)  
 * [Markdown Paste Plugin](../../vs-code/plugins/markdown-paste.md) für Bilder
+
 
 
 
