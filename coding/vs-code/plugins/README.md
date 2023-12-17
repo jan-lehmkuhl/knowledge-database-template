@@ -11,7 +11,7 @@ Plugins
 
 ### Plugins installieren
 Einer der ersten Hinweise an euch wird sein, dass ihr `Recommended Plugins` installieren könnt. 
-Für die Verwendung dieses Repositories ist das tatsächlich sinnvoll die Empfehlungen die in der [`extensions.json`](../../.vscode/extensions.json) hinterlegt sind zu installieren.  
+Für die Verwendung dieses Repositories ist das sinnvoll die Empfehlungen die in der [`extensions.json`](../../.vscode/extensions.json) hinterlegt sind zu installieren.  
 
 
 

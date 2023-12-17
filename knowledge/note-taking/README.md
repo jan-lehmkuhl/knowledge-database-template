@@ -16,3 +16,5 @@ Important because of [Forgetting Curve](../../learning/knowledge/forgetting-curv
 
 RESOURCES
 ======================================================================
+
+[en.wikipedia.org](https://en.wikipedia.org/wiki/Note-taking)  

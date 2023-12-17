@@ -15,6 +15,8 @@ Mögliche Shortcuts werden dir hier auch direkt angezeigt.
 
 `Strg +P` öffnet die Dateisuche, sodass du nicht den Dateibrowser nutzen musst.  
 
+> ![](images/command-search.png)  
+
 
 
 

@@ -19,24 +19,33 @@ Die Syntax ist dabei:
 
 Die [Markdown Übersichtsseite](README.md) wurde hier mit `[Markdown Übersichtsseite](README.md)` in den Fließtext eingebaut.  
 
+Das Einfügen dieser Links wirst du jedoch so oft ausführen, dass es sinnvoll ist hierfür ein [Snippet](../../vs-code/snippets.md) plus [Shortcut](../../vs-code/keyboard-shortcuts.md) anzulegen. 
+
+
 
 Multi-Ebenen Links
 ------------------------------------------------------------
-
 Mit optional auch mehrfach vorangestellten `../` (`../../`) lassen sich auch Dateien auf übergeordneten Ebenen finden. 
 `Strg + Space` öffnet hier auch Intellisense und erleichtert den Bau der Verknüpfung.  
 
+### Knowledge Base link
 Absolute Links ab Workspace-Root funktionieren auch:  
 [Test](/coding/vs-code/plugins/markdown-paste.md)  
 
     [Test](/coding/markdown/markdown-paste-plugin.md)  
 
-Der Befehl `File: Copy Relative Path of Active File` 
+Gerade in komplexen Strukturen ist es sinnvoll hierüber den Link zu erstellen. 
+Der Befehl `File: Copy Relative Path of Active File` kopiert diesen Pfad in die Zwischenablage und wird direkt in das Snippet `markdown link knowledge base` eingefügt.  
+Auch hierfür ist das Snippet mit einem Shortcut garniert sehr hilfreich.  
 
-### Dateien verschieben
+
+
+Dateien verschieben
+------------------------------------------------------------
 Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden die relativen Pfade im Quelltext angepasst. 
 Es müssen im Anschluss nur alle geänderten Dateien gespeichert werden. 
 Wird ein zweifaches Verschieben hintereinander ohne speichern angewendet, werden die Links nicht geupdated. 
+
 
 
 

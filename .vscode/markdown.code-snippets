@@ -111,6 +111,41 @@
         "description": ""
     },
 
+    "meeting notes": {
+        "prefix": ["notes meeting", "Besprechung"],
+        "body": [
+            "---",
+            "id: $UUID",
+            "created: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+            "keywords: ",
+            "  - #meeting${5}",
+            "participants:",
+            "  - Jan Lehmkuhl${6}",
+            "---",
+            "",
+            "",
+            "${1:MEETING_TITLE}",
+            "======================================================================",
+            "",
+            "General Notes",
+            "------------------------------------------------------------",
+            "$0",
+            "",
+            "Arising Questions",
+            "------------------------------------------------------------",
+            "",
+            "",
+            "Action Items for Me",
+            "------------------------------------------------------------",
+            "",
+            "",
+            "Action Items for Others",
+            "------------------------------------------------------------",
+            "",
+        ],
+    },
+
+
     "literature content header": {
         "prefix": "literature content header",
         "body": [
