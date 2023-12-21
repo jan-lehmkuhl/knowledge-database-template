@@ -10,6 +10,8 @@ keywords:
 PARA principle
 ======================================================================
 
+The PARA principle is important to distinguish which information should go into the knowledge base (aka "Resource") and which not.  
+
 * **Project**: 
   A series of tasks linked to a goal, with a deadline
 * **Area of Responsibility**: 

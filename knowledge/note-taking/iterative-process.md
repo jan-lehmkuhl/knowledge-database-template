@@ -12,6 +12,8 @@ Iterative Process
 Note Taking is an iterative process.
 You will never be finished.
 
+So expect to improve the note the next time and keep also your text [Easy to Change](/coding/concepts/easy-to-change.md).  
+
 
 
 RESOURCES

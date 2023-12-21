@@ -33,6 +33,8 @@ While working in this knowledge base I rely on some basic concepts which helping
 * [Easy to Change](/coding/concepts/easy-to-change.md)  
 * Notes are written in plain text files in [Markdown Syntax](coding/languages/markdown/README.md).  
 * Quality control and improvement with [git](coding/git/note-quality.md)  
+* [PARA Principle](knowledge/para-principle.md)  
+* [Note Content Structure](knowledge/note-taking/content-structure.md)  
 
 
 
