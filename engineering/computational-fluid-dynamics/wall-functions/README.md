@@ -10,10 +10,10 @@ Wall Functions
 ======================================================================
 
 Wall functions reducing numerical costs at the walls by an one-dimensional modeling. 
-([Lehmkuhl](_resources/Lehmkuhl2018_Dissertation_modeling-a-numeric-wall-function.md#574106))  
+([Lehmkuhl2018](_resources/Lehmkuhl2018_Dissertation_modeling-a-numeric-wall-function.md#574106))  
 
 For reactor safety not yet good enough 
-([Lehmkuhl](_resources/Lehmkuhl2018_Dissertation_modeling-a-numeric-wall-function.md#333966))  
+([Lehmkuhl2018](_resources/Lehmkuhl2018_Dissertation_modeling-a-numeric-wall-function.md#333966))  
 
 
 
