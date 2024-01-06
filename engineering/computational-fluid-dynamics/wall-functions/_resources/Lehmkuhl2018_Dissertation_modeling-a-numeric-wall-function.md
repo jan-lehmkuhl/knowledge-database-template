@@ -84,3 +84,14 @@ An der Wand sind die Gradienten in der Strömung besonders ausgeprägt, sodass n
 Das Ziel von Wandfunktionen ist es, die für die Strömungsgradienten an der Wand nötigen hohen Gitterauflösungen durch angepasste Randbedingungen zu vermeiden, die die Informationen für die Hauptströmung auf groben Gittern nicht verändern. 
 Diese Randbedingungen werden durch Wandfunktionen erreicht, die die aufwändigen, dreidimensionalen Gitterberechnungen durch eindimensionale Lösungen modellieren. 
 Diese Wandfunktionen werden dem CFD-Code meistens als algebraische Lösung der Geschwindigkeitsgrenzschicht (wie z.B. die Beziehungen in Abbildung 3-1 und Abbildung 3-5) als Randbedingung zur Verfügung gestellt.
+
+
+##### 505081
+**___
+Definition Node und Integrationspunkte
+___**  
+excerpt page: 27
+###### my assessment
+###### my synopsis
+###### citation
+![](images/screenshot-grotjans-pic.png)  
