@@ -17,7 +17,7 @@ Beside my actual knowledge base approach with this template there are a lot of o
 * [roamresearch.com](https://roamresearch.com/)  
 * Dendron
 * Zettlr
-* Notion
+* [Notion](notion.md)
 * general Wiki-Systems needs to much clicks for small changes 
 
 

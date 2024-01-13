@@ -9,7 +9,11 @@ keywords:
 Joplin
 ======================================================================
 
-Besonders sinnvoll für [Daily Notes](/knowledge/note-taking/daily-notes.md)
+Joplin nutze ich für alle meine [Daily Notes](/knowledge/note-taking/daily-notes.md) die ich irgendwo mache, wenn ich nicht gerade an meiner Wissensdatenbank sitze. 
+Es synchronisiert sich ohne zusätzlichen Aufwand über alle meine Geräte und Betriebssysteme. 
+Nur ein Dropbox-Login ist nötig. 
+
+Kleinere Projekte, die nur ein paar Notizen brauchen, und temporäre Informationen sind hier auch in Unterordnern zu finden.  
 
 
 

@@ -22,6 +22,19 @@ The PARA principle is important to distinguish which information should go into 
   Inactive items from the other 3 categories
 
 
+Important for you is to know, where to store your incoming notes. 
+You can also use different tools. 
+For example: 
+* For projects I use separate git projects with notes similar to the resource database. 
+  The project management is organized with issues in GitLab.com. 
+* My Area of Responsibility are normal files stored on a samba share. 
+  This is because most of them are insurances, etc. which I share with my wife. 
+* My Resources are stored with this template on GitLab.com 
+* My Archive is like the projects. 
+  Important is to finalize projects and move the in the Archive, but to extract previous all needed information for the Resources. 
+
+
+
 
 RESOURCES
 ======================================================================

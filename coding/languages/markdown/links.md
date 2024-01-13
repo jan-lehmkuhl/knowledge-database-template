@@ -42,9 +42,23 @@ Auch hierfür ist das Snippet mit einem Shortcut garniert sehr hilfreich.
 
 Dateien verschieben
 ------------------------------------------------------------
-Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden die relativen Pfade im Quelltext angepasst. 
-Es müssen im Anschluss nur alle geänderten Dateien gespeichert werden. 
-Wird ein zweifaches Verschieben hintereinander ohne speichern angewendet, werden die Links nicht geupdated. 
+Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden normalerweise die relativen Pfade im Quelltext angepasst. 
+Dieser Prozess sollte aber ab und zu überprüft werden. 
+Oft hilft hier schon ein Neustart von VS Code. 
+
+
+
+Links zu Überschriften
+------------------------------------------------------------
+Es können auch Links zu Überschriften erstellt werden. 
+Diese werden einfach mit Raute angegeben. 
+
+    [Abschnitt 1](#dateien-verschieben)
+
+Obiger Link führt einfach zum [vorherigen Abschnitt](#dateien-verschieben) 
+und kann natürlich auch auf andere Dateien verweisen:  
+
+    [Description](/README.md#benefits-of-note-taking)
 
 
 

@@ -18,11 +18,7 @@ Die Daily-Notes Inbox aufzuräumen ist natürlich immer wieder etwas Aufwand, ab
 
 
 ## Joplin
-In [Joplin](/knowledge/tools/joplin.md) trage ich von allen Geräten (Laptops und Handy) meine Notizen mit Markdown ein, wenn ich keine Zeit habe sie direkt zu strukturieren. 
-Auch temporäre Informationen bleiben hier drin, bis ich sie nicht mehr brauche. 
-
-Kleiner Projekte, die nur ein paar Notizen brauchen, sind hier auch in einem Unterordner zu finden.  
-
+In [Joplin](/knowledge/tools/joplin.md) trage ich von allen Geräten (Laptops und Handy) meine Notizen mit Markdown ein, wenn nicht an meinen Hauptrechnern sitze. 
 
 ## Note-Macros
 Arbeite ich in VS-Code an Softwareprojekten erstelle ich Notizen mit [Note Macros](/coding/vs-code/plugins/note-macros.md).  
