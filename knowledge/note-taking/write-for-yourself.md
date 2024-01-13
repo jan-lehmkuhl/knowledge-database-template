@@ -12,6 +12,7 @@ Write for yourself
 You don't have to write perfect text. 
 The main focus is to help you, when you come back to this note. 
 If you read your note later and you find out, it is not good enough, you can improve it then. 
+Its an [iterative process](iterative-process.md). 
 But after a time you will find your own [fast](be-fast.md) writing style. 
 ([get-used-to-notes](get-used-to-notes.md))  
 
