@@ -9,7 +9,7 @@ keywords:
 Note-Taking
 ======================================================================
 
-Important because of [Forgetting Curve](../../learning/knowledge/forgetting-curve.md).
+See [Benefits of Note Taking](/README.md#benefits-of-note-taking).  
 
 
 
