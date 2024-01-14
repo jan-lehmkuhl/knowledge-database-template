@@ -16,9 +16,10 @@ This template should help you with:
 
 * preserving learned knowledge (see [forgetting curve](/knowledge/forgetting-curve.md))
 * creating new knowledge by sorting your own thoughts through writing/summarizing during the learning process of new fields (see [HowTo Attack new Knowledge](/knowledge/processes/howto-attack-new-topics.md))
+* Have a brain dump
 * [rewarding yourself](/knowledge/processes/rewarding-yourself.md) with "new knowledge/notes" instead of only finding a "Bug" per day :-)  
 * building new thoughts/ideas through connecting notes (see [Zettelkasten](/knowledge/zettelkasten/README.md))  
-* [review literature](/knowledge/processes/literature-review.md) and excerpt knowledge  
+* [review literature](/knowledge/processes/literature-excerpts.md) and excerpt knowledge  
 * link your thoughts together and build the basic structure of a strong [thesis](/knowledge/processes/write-a-thesis.md)  
 
 
@@ -29,10 +30,12 @@ Important Concepts
 While working in this knowledge base I rely on some basic concepts which helping me to maintain a good structure. 
 
 * [Atomic Notes](knowledge/note-taking/atomic-notes.md)  
-* This is Work in Progress ([iterative approach](/knowledge/note-taking/iterative-process.md))  
+* [Be fast](/knowledge/note-taking/be-fast.md)  
 * [Easy to Change](/coding/concepts/easy-to-change.md)  
+* This is Work in Progress ([iterative approach](/knowledge/note-taking/iterative-process.md))  
 * Notes are written in plain text files in [Markdown Syntax](coding/languages/markdown/README.md).  
-* Quality control and improvement with [git](coding/git/note-quality.md)  
+* Quality control and note improvement by revising with [git](coding/git/note-quality.md)  
+* [Daily Notes](knowledge/note-taking/daily-notes.md) as unsorted Inbox.  
 * [PARA Principle](knowledge/para-principle.md)  
 * [Note Content Structure](knowledge/note-taking/content-structure.md)  
 
@@ -46,15 +49,7 @@ Setup & Basic VS Code Usage
     * if you are used to [git](coding/git/README.md) clone this repository and use the additional benefits of git. 
 * Open the downloaded file structure in VS Code with the [command](coding/vs-code/command-palette.md) ["File: Open Folder"](coding/vs-code/open-folder-as-workspace.md) and make sure the folder `.vscode` is in your root of your workspace  
 * Make sure you are able to insert [snippets](coding/vs-code/snippets.md)  
+* Install some Plugins
+* [Syncing files](knowledge/repository-base/syncing.md)  
 
-
-
-HowTo Use
-------------------------------------------------------------
-
-## Markdown
-
-Die meisten Informationen werden in [Markdown-Files](coding/languages/markdown/README.md) mit der Dateiendung `md` gespeichert. 
-Diese Markdown-Dateien kannst du mit einem normalen Texteditor im Quelltext öffnen und lesen. 
-Besser ist es aber diese Dateien in gerenderter Ansicht zu betrachten. 
-Idealerweise nutzt du dafür den Editor [VS Code](coding/vs-code/README.md)  
+If you want to have the freedom and configuration of VS Code [Obsidian](/knowledge/tools/obsidian.md) as standalone tool, might be an alternative.  

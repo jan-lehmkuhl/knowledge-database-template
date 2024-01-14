@@ -11,7 +11,17 @@ keywords:
 Obsidian
 ======================================================================
 
-[What is Obsidian](https://help.obsidian.md/Obsidian/Obsidian) explains nicely the idea of a network knowledge base.  
+Obsidian is a standalone tool to create a knowledge base like this. 
+The data is named as "vault" and similar to the here proposed style. 
+Only the [markdown links](/coding/languages/markdown/links.md) are stored in Wiki-Link Syntax, which is not in the markdown specification.  
+
+A problem might be the commercial use license ([pricing](https://obsidian.md/pricing)). 
+If you willing to pay more, there is also a builtin [syncing option](https://obsidian.md/sync) with which you can use your knowledge base also on your phone.  
+
+
+There is also a lot of documentation outside which can help to use this software. 
+For example [What is Obsidian](https://help.obsidian.md/Obsidian/Obsidian) explains nicely the idea of a network knowledge base.  
+
 
 
 
@@ -20,3 +30,5 @@ RESOURCES
 
 [obsidian.md](https://obsidian.md/)  
 [help.obsidian.md](https://help.obsidian.md/Obsidian/Index)  
+
+[udemy.com](https://www.udemy.com/course/obsidian-md-digitale-notizen-schreiben-via-markdown-app/?fbclid=PAAaaZ95u5LE-iAj4j_jdtUSjzwps8tYI7W_GnjTckJbQUxBYExibdNdNrmWU_aem_th_Af9Oj8eBdvN4K8vAbB12UoEPMbn9zIbE1sdzUtk-PG4YSCF0iTqTcDTn-q6PNoU3_-WEhkN0Au8i1hanpYdzyY9u&utm_campaign=INTL-FB-PROS-DPA-Evergreen-GER-Smartly-DE&utm_content=)  
