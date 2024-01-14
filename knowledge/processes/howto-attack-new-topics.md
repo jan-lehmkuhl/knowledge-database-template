@@ -21,7 +21,7 @@ Because it is an [Iterative process](../note-taking/iterative-process.md) you wi
 Workflow
 ------------------------------------------------------------
 1. find interesting resources (websites, books, etc)  
-2. create a new note and if necessary a new category (folder) in your knowledge base
+2. create a [new note](../repository-base/workflow-new-note.md) and if necessary a new category (folder) in your knowledge base
     * Use the [snippet](/coding/vs-code/snippets.md) `note-header`  
 3. Store the resources in your note.  
     * Use snippet `Resources URL Link` for URL links
