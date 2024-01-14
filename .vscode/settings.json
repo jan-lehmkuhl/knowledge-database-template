@@ -45,4 +45,18 @@
     },
     "peacock.color": "#832561",
 
+
+    // -------- VSCode Extensions --------
+    "note-macros": {
+        "dailyNote": [
+            {
+            "type": "note",
+            "directory": "_daily-notes",
+            "extension": ".md",
+            "name": "daily",
+            "date": "yyyy-mm-dd"
+            }
+        ],
+    },
+
 }
