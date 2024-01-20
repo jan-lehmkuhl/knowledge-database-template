@@ -42,8 +42,8 @@ Auch hierfür ist das Snippet mit einem Shortcut garniert sehr hilfreich.
 
 Dateien verschieben
 ------------------------------------------------------------
-Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden normalerweise die relativen Pfade im Quelltext angepasst. 
-Dieser Prozess sollte aber ab und zu überprüft werden. 
+Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden normalerweise die [relativen Pfade von VS Code im Quelltext angepasst](../../vs-code/link-updater.md). 
+Dieser Prozess sollte aber ab und zu [überprüft werden](../../vs-code/link-updater.testing.md). 
 Oft hilft hier schon ein Neustart von VS Code. 
 
 

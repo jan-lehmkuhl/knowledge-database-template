@@ -3,14 +3,14 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.useTabStops": false,
+    "editor.renderWhitespace": "all",
 
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "files.trimTrailingWhitespace": false,
     },
-    "markdown.updateLinksOnFileMove.enabled": "always",
-    // "markdown.updateLinksOnFileMove.enableForDirectories": true,
-    "markdown.experimental.updateLinksOnFileMove.enabled": "always",
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "markdown.updateLinksOnFileMove.enableForDirectories": true,
     "MarkdownPaste.path": "images",
 
 
