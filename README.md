@@ -21,7 +21,7 @@ This template should help you with:
 * Have a brain dump
 * [rewarding yourself](/knowledge/processes/rewarding-yourself.md) with "new knowledge/notes" instead of only finding a "Bug" per day :-)  
 * building new thoughts/ideas through [connecting notes](/coding/languages/markdown/links.md) 
-  (see [Zettelkasten](/knowledge/zettelkasten/README.md))  
+  (see [Zettelkasten](/knowledge/note-taking/zettelkasten.md))  
 * [review literature](/knowledge/processes/literature-excerpts.md) and excerpt knowledge  
 * link your thoughts together and build the basic structure of a strong [thesis](/knowledge/processes/write-a-thesis.md)  
 

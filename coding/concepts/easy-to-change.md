@@ -17,6 +17,7 @@ Easy to Change (ETC)
 
 Leads to other concepts like: 
 * Dont repeat Yourself (DRY)
+* [Atomic Notes](/knowledge/note-taking/atomic-notes.md)
 
 
 

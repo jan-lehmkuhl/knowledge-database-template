@@ -16,7 +16,7 @@ Beside my actual knowledge base approach with this template there are a lot of o
 * From Obsidian I borrowed a lot of ideas
 * [roamresearch.com](https://roamresearch.com/)  
 * Dendron
-* Zettlr
+* [zettlr.com](https://zettlr.com/)  
 * [Notion](notion.md)
 * general Wiki-Systems needs to much clicks for small changes 
 
@@ -24,3 +24,5 @@ Beside my actual knowledge base approach with this template there are a lot of o
 
 RESOURCES
 ======================================================================
+
+[evantravers.com](https://evantravers.com/articles/2020/11/23/zettelkasten-updates/)  

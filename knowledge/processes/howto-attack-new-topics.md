@@ -13,7 +13,7 @@ If you want to learn a new topic you should instantly start to write notes.
 
 Even if you only create a new category (folder) with a single note in it, you learned how you can sort and connect the new topic in a wider scope. 
 Also with the next statements you write will help you to check if you understand everything, so that you can summarize it in your own words. 
-(Compare [Zettelkasten](../zettelkasten/README.md))  
+(Compare [Zettelkasten](../note-taking/zettelkasten.md))  
 
 Because it is an [Iterative process](../note-taking/iterative-process.md) you will not finish your research and so its not a good idea to wait till the not coming end. 
 

@@ -10,7 +10,7 @@ keywords:
 Atomare Notizen
 ======================================================================
 
-Die große Stärke einer [Markdown](/coding/languages/markdown/README.md) basierten Wissensdatenbank sind die Verlinkungen, wobei eine URL auch relativ auf eine Datei verweisen kann. (Siehe Link zu "Markdown") 
+Die große Stärke einer [Markdown](/coding/languages/markdown/README.md) basierten Wissensdatenbank sind die Verlinkungen, wobei eine URL auch relativ auf eine Datei verweisen kann. ([Markdown Links](/coding/languages/markdown/links.md))  
 
     [angezeigter-Text](URL)
 
