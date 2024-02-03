@@ -24,7 +24,7 @@ Workflow
 ### Add a new Resource Note
 1. Create a subfolder `_resources` in an appropriate category
 2. Create a markdown file with the name `AuthorYEAR_shortened-title` as Resource Note  
-3. Insert the [snippet](/coding/vs-code/snippets.md) `literature content header` at the top of the markdown Resource Note  
+3. Insert the [snippet](/coding/editors/vs-code/snippets.md) `literature content header` at the top of the markdown Resource Note  
 4. Add if available the pdf with the same name like the Resource Note  
 
 

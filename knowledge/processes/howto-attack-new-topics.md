@@ -22,7 +22,7 @@ Workflow
 ------------------------------------------------------------
 1. find interesting resources (websites, books, etc)  
 2. create a [new note](../repository-base/workflow-new-note.md) and if necessary a new category (folder) in your knowledge base
-    * Use the [snippet](/coding/vs-code/snippets.md) `note-header`  
+    * Use the [snippet](/coding/editors/vs-code/snippets.md) `note-header`  
 3. Store the resources in your note.  
     * Use snippet `Resources URL Link` for URL links
 4. Write your notes: 

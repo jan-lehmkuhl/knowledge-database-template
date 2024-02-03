@@ -21,11 +21,11 @@ Die Daily-Notes Inbox aufzuräumen ist natürlich immer wieder etwas Aufwand, ab
 In [Joplin](/knowledge/tools/joplin.md) trage ich von allen Geräten (Laptops und Handy) meine Notizen mit Markdown ein, wenn nicht an meinen Hauptrechnern sitze. 
 
 ## Note-Macros
-Arbeite ich in VS-Code an Softwareprojekten erstelle ich Notizen mit [Note Macros](/coding/vs-code/plugins/note-macros.md).  
+Arbeite ich in VS-Code an Softwareprojekten erstelle ich Notizen mit [Note Macros](/coding/editors/vs-code/plugins/note-macros.md).  
 Per Shortcut öffnet sich eine mit Datumsstempel versehene Datei und ich kann ohne Zeitverzug anfangen zu schreiben.  
 
 ### Use Templates
-Für Besprechung nutze ich das [Snippet](/coding/vs-code/snippets.md) "meeting notes", um direkt in eine vorgefertigte Struktur zu schreiben. 
+Für Besprechung nutze ich das [Snippet](/coding/editors/vs-code/snippets.md) "meeting notes", um direkt in eine vorgefertigte Struktur zu schreiben. 
 
 
 

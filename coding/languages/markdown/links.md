@@ -19,7 +19,7 @@ Die Syntax ist dabei:
 
 Die [Markdown Übersichtsseite](README.md) wurde hier mit `[Markdown Übersichtsseite](README.md)` in den Fließtext eingebaut.  
 
-Das Einfügen dieser Links wirst du jedoch so oft ausführen, dass es sinnvoll ist hierfür ein [Snippet](../../vs-code/snippets.md) plus [Shortcut](../../vs-code/keyboard-shortcuts.md) anzulegen. 
+Das Einfügen dieser Links wirst du jedoch so oft ausführen, dass es sinnvoll ist hierfür ein [Snippet](../../editors/vs-code/snippets.md) plus [Shortcut](../../editors/vs-code/keyboard-shortcuts.md) anzulegen. 
 
 
 
@@ -30,7 +30,7 @@ Mit optional auch mehrfach vorangestellten `../` (`../../`) lassen sich auch Dat
 
 ### Knowledge Base link
 Absolute Links ab Workspace-Root funktionieren auch:  
-[Test](/coding/vs-code/plugins/markdown-paste.md)  
+[Test](/coding/editors/vs-code/plugins/markdown-paste.md)  
 
     [Test](/coding/markdown/markdown-paste-plugin.md)  
 
@@ -42,8 +42,8 @@ Auch hierfür ist das Snippet mit einem Shortcut garniert sehr hilfreich.
 
 Dateien verschieben
 ------------------------------------------------------------
-Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden normalerweise die [relativen Pfade von VS Code im Quelltext angepasst](../../vs-code/link-updater.md). 
-Dieser Prozess sollte aber ab und zu [überprüft werden](../../vs-code/link-updater.testing.md). 
+Werden Dateien im VS Code Datei-Explorer umbenannt oder verschoben, werden normalerweise die [relativen Pfade von VS Code im Quelltext angepasst](../../editors/vs-code/link-updater.md). 
+Dieser Prozess sollte aber ab und zu [überprüft werden](../../editors/vs-code/link-updater.testing.md). 
 Oft hilft hier schon ein Neustart von VS Code. 
 
 

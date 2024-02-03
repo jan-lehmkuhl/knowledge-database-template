@@ -25,7 +25,7 @@ Diese Möglichkeiten existieren auch in Auflistungen.
 
 Es ist darauf zu achten dass die Leerzeichen beim speichern nicht gelöscht werden. 
 Diese Einstellung wird häufig für Source Code verwendet. 
-Wenn dieses so ist, kann diese [Einstellung](../../vs-code/settings.md) für Markdown in VS Code deaktiviert werden mit:  
+Wenn dieses so ist, kann diese [Einstellung](../../editors/vs-code/settings.md) für Markdown in VS Code deaktiviert werden mit:  
 
 ~~~json
     "[markdown]": {

@@ -22,7 +22,7 @@ Because all stuff are normal files you can and should sync them with your prefer
 If you know how to use [git](/coding/git/README.md) you should use this, to integrate the additional [revising process](/coding/git/note-quality.md).  
 
 
-The Settings of VS Code should be synced with the build-in tools of [VS Code](/coding/vs-code/settings-sync.md).  
+The Settings of VS Code should be synced with the build-in tools of [VS Code](/coding/editors/vs-code/settings-sync.md).  
 
 
 

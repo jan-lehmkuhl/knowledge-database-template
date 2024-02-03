@@ -14,7 +14,7 @@ Markdown
 
 Markdown ist eine Auszeichnungssprache die relativ schnell zu verstehen ist. 
 Markdown-Dateien mit der Dateiendung `md` kannst du mit einem normalen Texteditor im Quelltext öffnen und "relativ normal" lesen. 
-Trotzdem können diese Dateien wie html gerendert werden und in [VS Code](../../vs-code/README.md) mit der Preview (`Markdown: Open Preview to Side`) angeschaut werden.  
+Trotzdem können diese Dateien wie html gerendert werden und in [VS Code](../../editors/vs-code/README.md) mit der Preview (`Markdown: Open Preview to Side`) angeschaut werden.  
 
 
 Syntax
@@ -36,7 +36,7 @@ Trotzdem gibt es einige Besonderheiten die aus der Syntax nicht direkt ersichtli
 
 * Beim Schreiben von [Fließtexten mit Absätzen](floating-texts.md) werden Sätze in einzelne Zeilen mit Leerzeichen am Zeilenende genutzt.  
 * relative [Markdown Links](links.md)  
-* [Markdown Paste Plugin](../../vs-code/plugins/markdown-paste.md) für Bilder
+* [Markdown Paste Plugin](../../editors/vs-code/plugins/markdown-paste.md) für Bilder
 
 
 

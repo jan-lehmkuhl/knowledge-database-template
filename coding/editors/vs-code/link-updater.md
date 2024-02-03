@@ -10,7 +10,7 @@ Link Updater
 ======================================================================
 
 This feature should modify file links when modifying paths. 
-Please test with [link.testing](link-updater.testing.md).  
+Please test with [link.testing](./link-updater.testing.md).  
 
 
 ~~~json

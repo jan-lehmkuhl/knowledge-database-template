@@ -46,13 +46,13 @@ While working in this knowledge base I rely on some basic concepts which helping
 
 Setup & Basic VS Code Usage
 ------------------------------------------------------------
-* [Install VS Code](coding/vs-code/install.md)  
+* [Install VS Code](coding/editors/vs-code/install.md)  
 * Get the files of [this repository](https://github.com/jan-lehmkuhl/knowledge-database-template) with: 
     * `Download Zip` and extract the files on your hard-drive or 
     * if you are used to [git](coding/git/README.md) clone this repository and use the additional benefits of git. 
-* Open the downloaded file structure in VS Code with the [command](coding/vs-code/command-palette.md) ["File: Open Folder"](coding/vs-code/open-folder-as-workspace.md) and make sure the folder `.vscode` is in your root of your workspace  
-* Make sure you are able to insert [snippets](coding/vs-code/snippets.md)  
+* Open the downloaded file structure in VS Code with the [command](coding/editors/vs-code/command-palette.md) ["File: Open Folder"](coding/editors/vs-code/open-folder-as-workspace.md) and make sure the folder `.vscode` is in your root of your workspace  
+* Make sure you are able to insert [snippets](coding/editors/vs-code/snippets.md)  
 * Install some Plugins
 * [Syncing files](knowledge/repository-base/syncing.md)  
 
-If you want to have the freedom and configuration of VS Code [Obsidian](/knowledge/tools/obsidian.md) as standalone tool, might be an alternative.  
+If you want to have the freedom and configuration of VS Code [Obsidian](coding/editors/obsidian/README.md) as standalone tool, might be an alternative.  

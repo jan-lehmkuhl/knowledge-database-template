@@ -15,7 +15,7 @@ New Note
 One of my most favourite commands is: `Markdown Notes: New Note`. 
 This creates a new note beside the actual one. 
 
-To execute this with [shortcut](/coding/vs-code/keyboard-shortcuts.md) you can use following code: 
+To execute this with [shortcut](/coding/editors/vs-code/keyboard-shortcuts.md) you can use following code: 
 ~~~json
     {
         "key": "ctrl+shift+n",

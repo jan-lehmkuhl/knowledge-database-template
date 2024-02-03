@@ -26,8 +26,8 @@ Tools & Techniques to be fast
 * use [git](/coding/git/note-quality.md) to know where to finalize your notes 
 
 Know & improve your Tools in VS Code: 
-* [Snippets](/coding/vs-code/snippets.md)
-* [Shortcuts](/coding/vs-code/keyboard-shortcuts.md)
+* [Snippets](/coding/editors/vs-code/snippets.md)
+* [Shortcuts](/coding/editors/vs-code/keyboard-shortcuts.md)
     * insert snippets
     * arrow keys
     * move windows

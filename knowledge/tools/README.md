@@ -11,9 +11,10 @@ Knowledge Base Tools
 
 Beside my actual knowledge base approach with this template there are a lot of other tools in the market.  
 
+* [VS Code](/coding/editors/vs-code/README.md) as Editor  
 * [Citavi](citavi.md) was long time my first choice
 * [Joplin](joplin.md) my tool for the daily incoming unsorted notes
-* From Obsidian I borrowed a lot of ideas
+* From [Obsidian](/coding/editors/obsidian/README.md) I borrowed a lot of ideas
 * [roamresearch.com](https://roamresearch.com/)  
 * Dendron
 * [zettlr.com](https://zettlr.com/)  

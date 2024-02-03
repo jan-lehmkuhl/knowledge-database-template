@@ -24,7 +24,6 @@ For example [What is Obsidian](https://help.obsidian.md/Obsidian/Obsidian) expla
 
 
 
-
 RESOURCES
 ======================================================================
 
