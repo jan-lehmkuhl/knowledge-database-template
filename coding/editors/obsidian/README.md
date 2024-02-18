@@ -23,6 +23,15 @@ There is also a lot of documentation outside which can help to use this software
 For example [What is Obsidian](https://help.obsidian.md/Obsidian/Obsidian) explains nicely the idea of a network knowledge base.  
 
 
+Usage
+------------------------------------------------------------
+All commands you find in Command Search with the shortcut `ctrl+p`.  
+
+Please look also [my default settings](settings.md).  
+Here you should also [switch to markdown links](https://help.obsidian.md/Linking+notes+and+files/Internal+links) to ensure compatibility to other systems. 
+
+
+
 
 RESOURCES
 ======================================================================
