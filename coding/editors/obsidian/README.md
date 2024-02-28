@@ -12,7 +12,7 @@ Obsidian
 ======================================================================
 
 Obsidian is a standalone tool to create a knowledge base like this. 
-The data is named as "vault" and similar to the here proposed style. 
+The data is named as "vault" and you can open this repository also as vault. 
 Only the [markdown links](/coding/languages/markdown/links.md) are stored in Wiki-Link Syntax, which is not in the markdown specification.  
 
 There is also a lot of documentation outside which can help to use this software. 
