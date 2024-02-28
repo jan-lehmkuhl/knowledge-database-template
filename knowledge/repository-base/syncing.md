@@ -18,11 +18,17 @@ Because all stuff are normal files you can and should sync them with your prefer
 * Dropbox
 * Google
 * OneDrive
+* Apple Cloud
 
 If you know how to use [git](/coding/git/README.md) you should use this, to integrate the additional [revising process](/coding/git/note-quality.md).  
 
 
 The Settings of VS Code should be synced with the build-in tools of [VS Code](/coding/editors/vs-code/settings-sync.md).  
+
+
+Cell Phones
+------------------------------------------------------------
+Syncing your files on a cell phone might be more complicated, because the default apps only provide links inside their apps and don't creates physical local copies on your phone.  
 
 
 
