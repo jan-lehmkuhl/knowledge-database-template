@@ -1,43 +1,26 @@
 My Knowledge Base Template
 ======================================================================
 
+Note-Taking is an essential process of knowledge building and also a creativity process. 
+(Details in [/knowledge/note-taking/README](/knowledge/note-taking/README.md#benefits-of-note-taking))  
 This is my a template for a structured knowledge base to use with widely spread open-source tools.  
 
 I use this approach for nearly all my work and really don't know how to work without it. 
 I hope you find some ideas or extend this repository to your personal knowledge home. 
 
 
-
-Benefits of Note-Taking
-------------------------------------------------------------
-
-Note-Taking is an essential process of knowledge building and also a creativity process.
-This template should help you with:
-
-* preserving learned knowledge 
-  (see [forgetting curve](/knowledge/forgetting-curve.md))
-* creating new knowledge by sorting your own thoughts through writing/summarizing during the learning process of new fields 
-  (see [HowTo Attack new Knowledge](/knowledge/processes/howto-attack-new-topics.md))
-* Have a brain dump
-* [rewarding yourself](/knowledge/processes/rewarding-yourself.md) with "new knowledge/notes" instead of only finding a "Bug" per day :-)  
-* building new thoughts/ideas through [connecting notes](/coding/languages/markdown/links.md) 
-  (see [Zettelkasten](/knowledge/note-taking/zettelkasten.md))  
-* [review literature](/knowledge/processes/literature-excerpts.md) and excerpt knowledge  
-* link your thoughts together and build the basic structure of a strong [thesis](/knowledge/processes/write-a-thesis.md)  
-
-
-
 Important Concepts
 ------------------------------------------------------------
-
-While working in this knowledge base I rely on some basic concepts which helping me to maintain a good structure. 
+The general concept of this template follows the [Zettelkasten-Approach](knowledge/note-taking/zettelkasten.md). 
+While working I rely on some basic (additional) concepts which helping me to maintain a good structure. 
 
 * [Atomic Notes](knowledge/note-taking/atomic-notes.md)  
 * [Be fast](/knowledge/note-taking/be-fast.md)  
 * [Easy to Change](/coding/concepts/easy-to-change.md)  
 * This is Work in Progress ([iterative approach](/knowledge/note-taking/iterative-process.md))  
-* Notes are written in plain text files in [Markdown Syntax](coding/languages/markdown/README.md).  
+* Notes in plain text files with [Markdown Syntax](coding/languages/markdown/README.md).  
 * Quality control and note improvement by revising with [git](coding/git/note-quality.md)  
+* [rewarding yourself](../processes/rewarding-yourself.md) with "new knowledge/notes" instead of only finding a "Bug" per day :-)  
 * [Daily Notes](knowledge/note-taking/daily-notes.md) as unsorted Inbox.  
 * [PARA Principle](knowledge/para-principle.md)  
 * [Note Content Structure](knowledge/note-taking/content-structure.md)  

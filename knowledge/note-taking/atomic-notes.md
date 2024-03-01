@@ -15,6 +15,7 @@ Die große Stärke einer [Markdown](/coding/languages/markdown/README.md) basier
     [angezeigter-Text](URL)
 
 Um möglichst viele Querverweise zu bekommen, sollten daher die Notizen in ihre kleinstmöglichen Einheiten aufgeteilt werden und zusätzlich über Übersichtsnotizen miteinander verlinkt werden. 
+([Easy to Change](/coding/concepts/easy-to-change.md))  
 
 Da Notizen schreiben ein [iterativer Prozess](iterative-process.md) ist, werden Notizen mit der Zeit automatisch länger und länger. 
 Sobald man merkt, dass Teile der Notiz in verschiedenen anderen Notizen genutzt werden, ist der Punkt gekommen diese aufzusplitten. 
