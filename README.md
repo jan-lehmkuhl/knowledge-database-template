@@ -2,7 +2,7 @@ My Knowledge Base Template
 ======================================================================
 
 Note-Taking is an essential process of knowledge building and also a creativity process. 
-(Details in [/knowledge/note-taking/README](/knowledge/note-taking/README.md#benefits-of-note-taking))  
+(Benefits listed in [/knowledge/note-taking/README](/knowledge/note-taking/README.md#benefits-of-note-taking))  
 This is my a template for a structured knowledge base to use with widely spread open-source tools.  
 
 I use this approach for nearly all my work and really don't know how to work without it. 
@@ -39,3 +39,14 @@ Setup & Basic VS Code Usage
 * [Syncing files](knowledge/repository-base/syncing.md)  
 
 If you want to have the freedom and configuration of VS Code [Obsidian](coding/editors/obsidian/README.md) as standalone tool, might be an alternative.  
+
+
+
+Use it
+------------------------------------------------------------
+Finally you should use this template to do your beneficial knowledge work by [note taking](/knowledge/note-taking/README.md#benefits-of-note-taking) like:  
+
+* search faster for stuff you forgot 
+* [attack new knowledge fields](/knowledge/processes/howto-attack-new-topics.md)
+* do [literature work](/knowledge/processes/literature-excerpts.md)
+* [create a thesis](/knowledge/processes/write-a-thesis.md) on basis of notes  
